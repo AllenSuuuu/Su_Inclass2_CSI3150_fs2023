@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>In-class2</title>
+    <!--Link css-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="smaller-container1">
+        <p>
+          Welcome to the Interactive ABCs of CSS Technology Learning Website
+        </p>
+      </div>
+      <div class="smaller-container2">
+        <p>
+          Click on the button below to reveal and learn the CSS technology
+          features of the corresponding letters
+        </p>
+        <div class="feature" data-letter="A">
+          <img src="img/css-letter-a.png" alt="Image A" />
+          <button class="hide-feature">Hide Result</button>
+        </div>
+        <div class="feature" data-letter="B">
+          <img src="img/css-letter-b.png" alt="Image B" />
+          <button class="hide-feature">Hide Result</button>
+        </div>
+        <div class="feature" data-letter="C">
+          <img src="img/css-letter-c.png" alt="Image C" />
+          <button class="hide-feature">Hide Result</button>
+        </div>
+        <div class="buttons">
+          <button class="letter" data-letter="A">A</button>
+          <button class="letter" data-letter="B">B</button>
+          <button class="letter" data-letter="C">C</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

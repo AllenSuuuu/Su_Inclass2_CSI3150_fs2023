@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid orange;
+  padding: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 600px;
+}
+
+.smaller-container1 {
+  border: 1px solid orange;
+  padding: 6px;
+  width: 790px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.smaller-container2 {
+  border: 1px solid orange;
+  padding: 6px;
+  width: 790px;
+  margin: 0 auto;
+  height: 40px;
+}
+
+.letter {
+  padding: 10px 60px;
+  margin-top: 400px;
+  font-size: 20px;
+  border: 2px solid orange;
+  background-color: transparent;
+}
+
+.features {
+  margin-top: 20px;
+}
+
+.feature {
+  display: none;
+  width: 200px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: inline-block; /* This will display the features side-by-side */
+  vertical-align: top;
+}
+
+/* CSS for the hide button */
+.hide-feature {
+  display: block;
+  margin: auto;
+  padding: 5px 15px;
+  background-color: lightblue;
+  cursor: pointer;
+}
